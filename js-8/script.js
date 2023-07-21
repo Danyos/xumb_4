@@ -1,97 +1,83 @@
-// 1
-// let str='Lorem ipsum dolor. uid amet consectetur adipisicing elit. Ab earum sit amet consectetur .sit amet consectetur adipisicing elit elit.'
-// let ket1=str.indexOf('.',0)   //20
-// let ket2=str.indexOf(".",ket1+1)
-// let res=str.slice(ket1,ket2)
 
-// ktrel 1 in ketic minchev 2 kety bayc dinamic devov
+// 0,false,undefined,null,'',NaN
+// console.log(NaN && 0)
 
-// 2.
-// let num="99.99.9,84"
-// let x=num.slice(0,num.indexOf(','))
-// let y=num.slice(num.indexOf(',')+1)
-// ktrel tivyx i mej pahel minchev ,@ y i mej pahel , ic heto
-// dyunamics devov
 
-// debugger
-// 3. stexcum enq mutqi sxemaa
-// const login="admin123"
-// const psw='aA1234'
-// // ____________________________
-//
-// let res=prompt("greq login","Admin123").toLowerCase()===login.toLowerCase()
-//     &&prompt("greq psw","aA1234")===psw
-//
+// let res=(5<3 || 8%2 === 0) ?"duq chisht eq":"duq sxal eq mtacum"
+
 // console.log(res)
 
 
-// 1. Hamematel login ardyoq hamapataxanum e login te voch
-// 2. loginy kap chuni ogtatery metsatar e grel te poqratar
-// 3. erb loginy chisht lini nor stugi psw
-// let conf = confirm("Do you like this lesson")
-// document.write(`<h1 style="color: ${conf ? 'green' : "red"};">Barev dhez vonces </h1>`)
-
-let t = "Poxos"
-// if(t===7 ){
+// let service=12000
+// let vivacel=3900
 //
-// }else if(t===8){
-//
-// }else if(t===9){
-//
+// if(vivacel>=service){
+//     vivacel-=service
+//     console.log(`tsarayutyuny activacvats e dher hashvekshiry kazmum e ${vivacel} dram`)
 // }else{
-//
-// }
-
-switch (t) {
-    case "Poxos":
-        console.log("barev 7")
-        break;
-    case 8:
-        console.log("barev 8")
-            // ....
-        break;
-
-    case 9:
-        console.log("barev 9")
-        break;
-    default:
-        console.log("barev sxal")
-
-
-}
-
-
-// if(conf){
-//     document.write(`<h1 style="color: green;">Barev dhez vonces </h1>`)
-// }else{
-//     document.write(`<h1 style="color: red;">Barev dhez vonces </h1>`)
+//     console.log(`Dher balancy chi hamapatasxanum, gortcarq-i
+//      giny kazmum e ${service} dram isk dher hashvin arka e ${vivacel} dram`)
 // }
 
 
-// tnayin
 
-//1. promptov mardy gri anun cankacac paragayum arajin tary sarqi poqratar miayn arajin tary
-// HAMAYAK <> hAMAYAK
+// let vtb=500
+// let ameria=1700
+// let idbank=3400
+// let product=24500
 
-
-// 2. nuyni verjin tary metsatar
-// Muxi <<>> MuxI
-
-// 3.prompt unaenaq stugum eq, թե արդյոք թիվը համապատասխանում է հետևյալ չափանիշներին.
-// Թիվը դրական է։
-// Թիվը զույգ է։
-// Թիվը բաժանվում է 3-ի
-
-// promptum gres faringeyti tivy veradarcni C astichan taki orinaky matematikakan grvacq e
-// (°F - 32) * 5/9 = °C
+let res=''
 //
-//// promptum gres celsus tivy veradarcni F astichan taki orinaky matematikakan grvacq e
-// (°C * 9/5) + 32 = °F
+// if(vtb>=product){
+//
+//     vtb-=product
+//     res=`gandzum ${product} vcharumy katarvel e vtb hamakargov dher balancy kazmum e ${vtb} dram`
+//
+// }else if( ameria>=product){
+//     ameria-=product
+//     res=`gandzum ${product} vcharumy katarvel e ameria hamakargov dher balancy kazmum e ${ameria} dram`
+// }else if( idbank>=product){
+//     idbank-=product
+//     res=`gandzum ${product} vcharumy katarvel e idbank hamakargov dher balancy kazmum e ${idbank} dram`
+// }else{
+//     res=`Anbav arar mijocner Nshvats bolor qarteric`
+//
+// }
+// console.log(res)
+// let areq="626"
+// if (typeof areq === "string") {
+//
+//     if(areq>0){
+//         alert("drakan")
+//     }else{
+//         alert("bacasakan")
+//     }
+//
+// }else{
+//     alert("string chi inqy "+typeof areq +" a")
+// }
 
 
 
 
-// https://javascript.info/switch
+// login passwordy patrastel if ov
+
+// 2 unenaq prompt marduc harcneq ir tarqiy ete tariqy minchev 17 tarekan aseq duq poqr eq 18-63 duq grancveciq
+// 63-99 duq shat mets eq sxal tariq
+
+
+// 2 prompt 1 gre 2 tiv 10,30
+// 2 grum eq gortxutyan shany +-*/
+
+// stugel regexp ov
+// 10+30// 40
+
+
+
+
+
+
+
 
 
 
